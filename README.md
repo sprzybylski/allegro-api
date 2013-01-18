@@ -1,0 +1,4 @@
+allegro-api
+===========
+
+AllegroWebAPI client
