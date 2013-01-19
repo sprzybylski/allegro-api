@@ -22,7 +22,7 @@ buster.testCase('AllegroWebAPI Class', {
 
         self.server.listen(1337);
 
-        soap.createClient("http://localhost:1337", function (error, client) {
+        soap.createClient('http://localhost:1337', function (error, client) {
             self.client = client;
 
             self.stub(client, 'doQuerySysStatus');
