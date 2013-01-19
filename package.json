@@ -1,0 +1,31 @@
+{
+  "name": "allegro-api",
+  "version": "0.0.0",
+  "description": "AllegroWebAPI client",
+  "main": "main.js",
+  "scripts": {
+    "lint": "./node_modules/jshint/bin/hint .",
+    "test": "./node_modules/buster/bin/buster-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sprzybylski/allegro-api.git"
+  },
+  "keywords": [
+    "allegro",
+    "webapi",
+    "api",
+    "soap"
+  ],
+  "author": "Szymon Przybylski <szymon.przybylski@gmail.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "7e4192a5b62297e2a964ac91e58d4c92fbf09581",
+  "devDependencies": {
+    "buster": "~0.6.12",
+    "jshint": "~0.9.1"
+  },
+  "dependencies": {
+    "soap": "~0.2.7"
+  }
+}
